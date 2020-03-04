@@ -1,6 +1,4 @@
-html {
-    height: 100%;
-}
+
 
 
 body {
@@ -21,6 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
 
 }
 
@@ -118,13 +117,24 @@ a {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.22);
     }
 
+.mybutton:hover {
+    background-color: rgb(173, 225, 208);
+    transition-duration: .5s;
+}
+
 a.mybutton {
     display: inline-block;
     margin-top: 20px;
 }
 
-nav a.mybutton {
+nav .mybutton {
     margin-left: 30px;
+}
+
+.navbutton:hover {
+    background-color: white;
+    color: #FC5E55;
+    transition-duration: .5s;
 }
 
 .navbutton {
@@ -134,4 +144,24 @@ nav a.mybutton {
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
     ;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
 }
