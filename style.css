@@ -112,4 +112,6 @@ a {
     color: #FC5E55;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-top: 20px;
 }
