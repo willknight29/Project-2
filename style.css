@@ -38,6 +38,10 @@ main {
     min-height: 300px;
 }
 
+.inputwrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .cards {
     display: flex;
