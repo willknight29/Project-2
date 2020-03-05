@@ -39,8 +39,32 @@ main {
 }
 
 .inputwrapper {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 5px;
+}
+
+form {
+    margin: 40px 0px;
 }
 
 .cards {
@@ -57,6 +81,8 @@ main {
     width: 30%;
     
 }
+
+
 
 .card2 {
     background-image: url(images/image-background-card2.jpg);
