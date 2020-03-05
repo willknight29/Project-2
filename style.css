@@ -131,11 +131,6 @@ nav .mybutton {
     margin-left: 30px;
 }
 
-.navbutton:hover {
-    background-color: white;
-    color: #FC5E55;
-    transition-duration: .5s;
-}
 
 .navbutton {
     border: 2px;
@@ -143,7 +138,51 @@ nav .mybutton {
     border-color: white;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
-    ;
+    display: inline-block;
+    position: relative;
+}
+
+.navbutton:hover {
+    background-color: white;
+    transition-duration: 500ms;
+}
+
+.navbutton:hover a {
+    color: #FC5E55;
+    transition-duration: 500ms;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.navbutton:hover .dropdown a {
+    color: white;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    }
+
+.dropdown .navbutton:hover {
+    background-color: white;
+    color: #FC5E55;
+    transition-duration: 500ms;
+}
+
+.dropdown .navbutton:hover a {
+    color: #FC5E55;
+    transition-duration: 500ms;
+}
+
+
+.navbutton:hover .dropdown {
+    display: block;
 }
 
 .testimonials {
