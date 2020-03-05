@@ -191,6 +191,7 @@ nav .mybutton {
 .navbutton:hover {
     background-color: white;
     transition-duration: 500ms;
+    color: #FC5E55;
 }
 
 .navbutton:hover a {
